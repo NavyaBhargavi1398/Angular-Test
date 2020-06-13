@@ -1,0 +1,38 @@
+h2{
+    color:#7176b5;
+    margin-bottom: 25px;
+    margin-top: 75px;
+    font-family: 'Alegreya', serif;
+    font-size: 68px;
+}
+.dashboard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dashboard a{
+    text-decoration: none;
+}
+.card{
+    height: 277px;
+    width: 365px;
+    margin-bottom:30px;
+    box-shadow: 0px -17px 26px #b7b4b4;
+}
+.card-title{
+    padding-bottom: 7px;
+    margin: 9px;
+    border-bottom: 1px dotted #a7a1a1;
+    font-family: 'Spectral', serif;
+    color: #7176b5;
+    font-size: 32px;
+}
+.counter{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 66px;
+    color: rgb(78, 107, 165);
+}

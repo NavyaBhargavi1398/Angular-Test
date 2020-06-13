@@ -1,0 +1,52 @@
+.row{
+    width: 1345px;
+    padding-left: 6px;
+    height: 100%;
+    margin-right: 0px;
+}
+.col-sm-3 {
+    padding: 0px;
+    background-color: #0c588e;
+}
+.col-sm-9{
+    background-color: #e6e4e4;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.navbar{
+    width: 335px;
+    height: 180px;
+    padding-left: 30px;
+}
+.navbar-nav{
+    margin-top: 22px;
+}
+.navbar-header{
+    width: 100%;
+    border-bottom: 2px solid rgb(147, 147, 165);
+    padding-left: 6px;
+}
+.navbar-brand{
+    width: 100%;
+    color: #e4dede;
+    padding-bottom: 3px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 27px;
+}
+.nav-item{
+    margin: 5px 5px 10px 26px;
+}
+.nav-item span{
+    font-size: 21px;
+    color: #d2c8c8;
+    margin-left: 6px;
+}
+.nav-link{
+    font-size: 21px;
+    color: #d2c8c8;
+    text-decoration: none;
+}
+.nav-link img{
+    margin-right: 6px;
+    height: 19px;
+}

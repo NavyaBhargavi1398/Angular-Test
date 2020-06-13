@@ -1,0 +1,18 @@
+<div class="list">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Company Code</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let listItem of dataList">
+                <td>{{ listItem.id }}</td>
+                <td>{{ listItem.name }}</td>
+                <td>{{ listItem.companyCode }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

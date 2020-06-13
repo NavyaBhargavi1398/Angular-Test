@@ -1,0 +1,66 @@
+.loginWrapper{
+    height: auto;
+    width: 479px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 412px;
+    border: 1px solid #d0cece;
+    padding: 30px;
+    box-shadow: -1px 11px 25px #9291918f;
+}
+.title p{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: emoji;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+input.ng-invalid.ng-touched,textarea.ng-invalid.ng-touched{
+    border: 1px solid #b72929a6;
+}
+input{
+    margin-bottom: 5px;
+    color: #79828c;
+    border-bottom: 1px solid rgb(206, 212, 218);
+}
+.form-group span{
+    font-size: 15px;
+    color: #ec3030e3;
+}
+.form-group .otpSuccess{
+    font-size: 17px;
+    color: #339c10;
+}
+.verifyOtp{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.verifyOtp button{
+    border-radius: 20px;
+    width: 129px;
+    font-size: 18px;
+    background-color: #dad7d7ba;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6px;
+    padding: 11px;
+}
+.footer div{
+    margin-bottom: 18px;
+}
+.footer div button{
+    width: 127px;
+    border-radius: 26px;
+    font-size: 19px;
+    background-color: #6200ff;
+    box-sizing: initial;
+    color: white;
+}
+.footer div a{
+    color: #531bad;
+    font-size: 15px;
+}
